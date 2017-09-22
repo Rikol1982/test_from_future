@@ -1,0 +1,115 @@
+body{
+			background-color: #F5FFFA;
+		}
+		div#board{
+			position: absolute;
+			width: 1023px;
+			height: 663px;
+			margin:auto;
+		   
+		}
+		
+		table{
+			background-color: #FFFFFF;
+			position:relative;
+			left:166px;
+			top:0px;
+			border-spacing: 0px;
+
+		}
+		td{
+			text-align:  center;
+			width: 94px;
+			height: 94px;
+			
+		}
+		tr#first_row{
+			background-color: #F5FFFA;
+		}
+		tr#last_row{
+			background-color: #FFEFD5;
+		}
+		form{
+			position: absolute;
+			bottom: 0px;
+			left: 0px;
+			padding: 15px;
+			
+		}
+		form#second{
+			position: absolute;
+			bottom: 0px;
+			left: 400px;
+			padding: 15px;
+			
+		}
+		input{
+			background-color: #1E90FF;
+			border-color: #1E90FF;
+			font-size: 2em;
+			border-radius: 40px;
+			color: #FFFFFF;
+			text-align: center;
+		}
+		input#print_button{
+			background: #FFFFFF;
+			border-color: #FFFFFF;
+			color: #000000;
+			border-radius: 40px;
+		}
+		input#pay{
+			background: #FFFFFF;
+			border-color: #FFFFFF;
+			color: #000000;
+			border-radius: none;
+		}
+		
+		h1{
+			text-align: center;
+		}
+        p#header{
+        	text-align: center;
+        }
+        p#closer{
+        	text-align: center;
+        }
+ .popup_overlay{
+  display: none;
+  background: transparent;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  text-align: center;
+}
+.popup{
+  display: none;
+  background: #DCDCDC;
+  box-shadow: 0 0 10px rgba(0,0,0,1);
+  width: 450px;
+  height: 220px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-left: -100px;
+  margin-top: -150px;
+  text-align: center;
+}
+.popup_title{
+	text-align: center;
+	
+  font-weight: bold;
+  padding: 30px;
+}
+.popup_content{
+
+  padding: 10px;
+  border-top: 1px solid #ccc;
+  text-align: center;
+}
+.closer{
+ 
+  cursor: pointer;
+  text-align: center;
+}
